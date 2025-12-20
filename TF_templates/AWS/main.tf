@@ -1,22 +1,22 @@
 terraform {
-  required_version = ">= 1.0"
+  required_version = ">= 1.14"
   
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.0"
+      version = "~> 6.27"
     }
     vault = {
       source  = "hashicorp/vault"
-      version = "~> 4.0"
+      version = "~> 5.6"
     }
     tls = {
       source  = "hashicorp/tls"
-      version = "~> 4.0"
+      version = "~> 4.1"
     }
    ## aap = {
    ##   source  = "ansible/aap"
-   ##   version = "~> 1.0"
+   ##   version = "~> 1.4"
     }
   }
 }
